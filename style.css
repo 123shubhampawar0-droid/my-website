@@ -1,0 +1,51 @@
+body{
+    font-family: Arial;
+    margin:0;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    background:#333;
+    color:white;
+    padding:15px 40px;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:100px;
+    background:#f4f4f4;
+}
+
+.hero button{
+    padding:10px 20px;
+    background:#007BFF;
+    color:white;
+    border:none;
+}
+
+.services{
+    padding:40px;
+    text-align:center;
+}
+
+.card{
+    display:inline-block;
+    width:200px;
+    padding:20px;
+    margin:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+footer{
+    text-align:center;
+    background:#333;
+    color:white;
+    padding:15px;
+}
